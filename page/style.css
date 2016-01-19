@@ -1,0 +1,81 @@
+/*
+to style the html & php by using css
+*/
+/* 
+    Created on : Dec 11, 2015, 11:25:51 AM
+    Author     : chanangela
+*/
+html { 
+    min-width: 1024px;
+  background: url(../page/image/background.jpg) no-repeat center center fixed;
+opacity: 0.8;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+/*.background{
+    min-height: 100%;
+    min-width: 1024px;
+    position: fixed;
+opacity:0.8;
+
+}*/
+#logo{
+margin:10px;
+padding:10px;
+}
+
+#logo h1{
+    font:Big caslon, medium;
+    font-size: 24pt;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 500px;
+    margin-top: -130px;
+    width: 300px;
+    padding: 20px;
+  border: 3px solid black;
+    background-color: #bb0000;
+    color: white;
+    border-radius: 25px;
+}
+.clearboth{
+     clear: both;
+}
+
+
+#navigator li{
+    display: inline-block;
+    text-decoration: none;
+  
+    margin:40px;
+   
+ float:next;
+    padding:30px;
+    font: Big caslon , medium;
+    font-size:16pt;
+    
+}
+.clearboth{
+     clear: both;
+}
+.menu{
+    background-color: white;
+    width: 750px;
+    margin: 40px;
+    padding: 50px;
+    opacity: 0.8;
+}
+.menu h1{
+    font:Big caslon, medium;
+    font-size: 24pt;
+}
+footer{
+    margin-top:300px;
+    padding-top:100px;
+    font: Big caslon , medium;
+    font-size: 20pt;
+    
+}
